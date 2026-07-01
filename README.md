@@ -66,6 +66,3 @@ The estimator follows these steps:
 
 The test set is never used to fit the k-nearest-neighbor graph index, imputers, scalers, encoders, or classifiers. Edge-IIoTset leakage-prone columns such as labels, IP addresses, timestamps, payloads, messages, URIs, and DNS queries are removed before fitting.
 
-## Notes
-
-This folder is meant for method reproduction, not for recreating the full paper experiment suite. The full paper pipeline contains benchmarks, tables, figures, and repeated-seed aggregation; those components are intentionally omitted here.
