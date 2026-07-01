@@ -1,7 +1,5 @@
 # RobustKNNGraphEnsemble
 
-This folder contains the Python code needed to reproduce the proposed Paper 1 method only. It intentionally excludes benchmark comparisons, result tables, and plotting code.
-
 The method is a train-only similarity-graph ensemble for multiclass intrusion detection. It builds k-nearest-neighbor graph features from training records, appends neighbor class-probability and entropy features, augments the training data with small numeric perturbations, and fits a soft-voting Random Forest, ExtraTrees, and XGBoost classifier.
 
 ## Repository Contents
